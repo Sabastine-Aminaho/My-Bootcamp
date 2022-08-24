@@ -1,0 +1,23 @@
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+.rounded-circle{
+    width: 100px;
+    height: 80px;
+}
+.col-md:hover {
+    transform: translate(0px, -8px);
+    transition: 0.4s;
+}
+.col-md-6:hover {
+    transform: translate(0px, -8px);
+    transition: 0.4s;
+}
+
+@media (min-width:768px) {
+    .news-input {
+        width: 50%;
+    }
+}
